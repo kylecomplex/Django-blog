@@ -1,1 +1,1 @@
-web: gunicorn run:django_blog
+web: gunicorn app.wsgi
